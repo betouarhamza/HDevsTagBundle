@@ -32,7 +32,7 @@ class AppKernel extends Kernel
     {
         $bundles = array(
             // ...
-            new HDevs\UploaderBundle\HDevsTagBundle(),
+            new HDevs\TagBundle\HDevsTagBundle(),
         );
 
         // ...

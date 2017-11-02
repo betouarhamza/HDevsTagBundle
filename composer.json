@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "HDevs\\UploaderBundle\\": ""
+            "HDevs\\TagBundle\\": ""
         }
     },
     "extra": {
