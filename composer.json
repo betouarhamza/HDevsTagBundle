@@ -1,0 +1,27 @@
+{
+    "name": "hdevs/tag-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony HDevsTagBundle",
+    "keywords": [
+        "file uploads",
+        "upload"
+    ],
+    "homepage": "https://github.com/betouarhamza",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hamza Betouar",
+            "email": "betouar.hamza.89@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HDevs\\UploaderBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

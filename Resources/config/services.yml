@@ -1,0 +1,8 @@
+services:
+    h_devs.tag.manager.tag:
+        class: HDevs\TagBundle\Manager\TagManager
+    h_devs.tag.listener.tag:
+        class: HDevs\TagBundle\EventListener\TagSubscriber
+        arguments: ["@doctrine", "@h_devs.tag.manager.tag", "@service_container"]
+        tags:
+            - { name: doctrine.event_subscriber, connection: default }
